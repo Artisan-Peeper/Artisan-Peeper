@@ -4,11 +4,19 @@ const { fontFamily } = require("tailwindcss/defaultTheme")
 module.exports = {
   darkMode: ["class"],
   content: [
+<<<<<<< HEAD
     "./index.html",
     "./*/*.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./theme_files/css/styles.css"
+=======
+    './pages/**/*.{js,jsx}',
+    './components/**/*.{js,jsx}',
+    './app/**/*.{js,jsx}',
+    './src/**/*.{js,jsx}',
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5
   ],
+  prefix: "",
   theme: {
     container: {
       center: true,
@@ -54,8 +62,13 @@ module.exports = {
         },
       },
       borderRadius: {
+<<<<<<< HEAD
         lg: `var(--radius)`,
         md: `calc(var(--radius) - 2px)`,
+=======
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
@@ -75,4 +88,8 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5
