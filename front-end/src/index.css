@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
+=======
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -74,3 +76,4 @@
     @apply bg-background text-foreground;
   }
 }
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5

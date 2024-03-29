@@ -446,6 +446,26 @@ video {
 
 :root {
   --background: 0 0% 100%;
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+  --foreground: 222.2 47.4% 11.2%;
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
+  --border: 214.3 31.8% 91.4%;
+  --input: 214.3 31.8% 91.4%;
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
+  --primary: 222.2 47.4% 11.2%;
+  --primary-foreground: 210 40% 98%;
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+  --accent: 210 40% 96.1%;
+  --accent-foreground: 222.2 47.4% 11.2%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 210 40% 98%;
+  --ring: 215 20.2% 65.1%;
+=======
   --foreground: 240 10% 3.9%;
   --card: 0 0% 100%;
   --card-foreground: 240 10% 3.9%;
@@ -464,6 +484,7 @@ video {
   --border: 240 5.9% 90%;
   --input: 240 5.9% 90%;
   --ring: 240 10% 3.9%;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
   --radius: 0.5rem;
 }
 
@@ -474,6 +495,10 @@ video {
 body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+  font-feature-settings: "rlig" 1, "calt" 1;
+=======
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
 *, ::before, ::after {
@@ -576,6 +601,14 @@ body {
   --tw-backdrop-sepia:  ;
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+=======
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -587,12 +620,21 @@ body {
 
 .mt-4 {
   margin-top: 1rem;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
-.inline-block {
-  display: inline-block;
+.z-\[-6\] {
+  z-index: -6;
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+=======
 .flex {
   display: flex;
 }
@@ -639,16 +681,147 @@ body {
 
 .w-\[350px\] {
   width: 350px;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
-.w-full {
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-9 {
+  margin-top: 2.25rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-5\/6 {
+  height: 83.333333%;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.max-h-\[630px\] {
+  max-height: 630px;
+}
+
+.max-h-\[50\%\] {
+  max-height: 50%;
+}
+
+.max-h-\[30\%\] {
+  max-height: 30%;
+}
+
+.max-h-\[60\%\] {
+  max-height: 60%;
+}
+
+.w-\[100\%\] {
   width: 100%;
 }
 
-.max-w-sm {
-  max-width: 24rem;
+.w-\[90\%\] {
+  width: 90%;
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.w-auto {
+  width: auto;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[200\%\] {
+  width: 200%;
+}
+
+.w-\[300\%\] {
+  width: 300%;
+}
+
+.w-\[250\%\] {
+  width: 250%;
+}
+
+.w-\[260\%\] {
+  width: 260%;
+}
+
+.max-w-\[600px\] {
+  max-width: 600px;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.rounded-md {
+  border-radius: calc(var(--radius) - 2px);
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-\[0\.1vw\] {
+  border-width: 0.1vw;
+}
+
+.border-b-\[0\.01vw\] {
+  border-bottom-width: 0.01vw;
+}
+
+.border-slate-900 {
+  --tw-border-opacity: 1;
+  border-color: rgb(15 23 42 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+=======
 .cursor-pointer {
   cursor: pointer;
 }
@@ -667,12 +840,18 @@ body {
 
 .justify-center {
   justify-content: center;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
 .gap-2 {
   gap: 0.5rem;
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.bg-neutral-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity));
+=======
 .gap-4 {
   gap: 1rem;
 }
@@ -748,13 +927,26 @@ body {
 
 .p-6 {
   padding: 1.5rem;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.bg-cover {
+  background-size: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+=======
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -777,22 +969,45 @@ body {
 
 .pt-0 {
   padding-top: 0px;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
 .text-center {
   text-align: center;
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+=======
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.blur-3xl {
+  --tw-blur: blur(64px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+=======
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -873,6 +1088,7 @@ body {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }
 
 @keyframes enter {
@@ -889,6 +1105,11 @@ body {
   }
 }
 
+<<<<<<< HEAD:front-end/_theme_files/css/styles.css
+.\*\:text-white > * {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+=======
 .file\:border-0::file-selector-button {
   border-width: 0px;
 }
@@ -1009,4 +1230,5 @@ body {
   .xl\:min-h-\[800px\] {
     min-height: 800px;
   }
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5:front-end/_theme_files/output.css
 }

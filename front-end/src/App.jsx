@@ -78,6 +78,7 @@ function App() {
         <Route path='*' element={<NotFoundPage/>}/>
       </>
     )
+>>>>>>> 52cb261e602cf0f724167cb2d147cfb71c8d65c5
   )
   
   return <RouterProvider router={router}/>;
