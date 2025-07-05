@@ -78,10 +78,10 @@ To get started with this project, follow these instructions:
 
 # Acknowledgements
 
-Baarde, Ram		
-Fabella, Emmanuel	 
-Lizardo, Aubrey
-Miranda, Rhyu
+- Baarde, Ram <br>
+- Fabella, Emmanuel <br> 
+- Lizardo, Aubrey <br>
+- Miranda, Rhyu <br>
 
 <hr>
 
