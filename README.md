@@ -82,10 +82,6 @@ To get started with this project, follow these instructions:
    ```
 <hr>
 
-# Features:
-
-**You can try Dark mode and Light mode**
-
 # Acknowledgements
 
 - Baarde, Ram <br>
