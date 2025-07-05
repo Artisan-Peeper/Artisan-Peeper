@@ -2,8 +2,6 @@
 
 <div align="center">
 
-![ArtisanPeeper](front-end/src/assets/Logo.png)
-
 <pre align="center">
     ___         __  _                     ____                           
    /   |  _____/ /_(_)________ _____     / __ \___  ___  ____  ___  _____
