@@ -1,4 +1,8 @@
+
+
 <div align="center">
+
+![ArtisanPeeper](front-end/src/assets/Logo.png)
 
 <pre align="center">
     ___         __  _                     ____                           
