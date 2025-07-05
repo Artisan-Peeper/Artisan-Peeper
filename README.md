@@ -22,6 +22,14 @@
 With Artisan Peeper, we revolutionize talent discovery. Our platform offers unparalleled access to a diverse pool of skilled individuals, providing invaluable insights with minimal effort. Seamlessly navigate through profiles, gaining a comprehensive understanding of each applicant in moments. Streamlining the hiring process, we empower businesses to swiftly identify and secure top-tier talent.
 </p>
 
+## Key Features
+
+- Develop a user-friendly talent hiring platform using Tailwind and React for the UX/UI  
+- Employ spaCy for mining keywords from resumes and generating talent resume scores  
+- Train and implement TensorFlow for gaze detection to ensure integrity in our anti-cheating system  
+- Create soft-skill and cognitive assessments based on the Big-Five Model Theory using OpenAI  
+- Produce key analytics to predict talent personality and determine successful candidate matching for roles  
+
  
 
 
